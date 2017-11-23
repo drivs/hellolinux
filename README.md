@@ -1,7 +1,9 @@
 # Welcome to The Linux workshop!
 
-For starters, open up a terminal and type this in:
+For starters, open up a terminal and type this:
+```bash
   git clone 
+```
 Navigating the terminal
 
 
