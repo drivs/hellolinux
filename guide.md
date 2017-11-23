@@ -50,13 +50,36 @@ points:
 
 The list goes on. See the links fore more.
 
+## Wildcards
 
+What if we wanted to list all .pdf files? Or all .tex and .fsx files?
 
+### List all pdf files
 
+First change directory into wildcard
 
-Find the needle in the haystack
+```
+  cd wildcard
+```
+
+List files using the astericks regular expression
+
+```
+  ls \*.pdf
+```
+
+This regular expression will expand to *any* files ending in .pdf.
+
+Listing all .tex and .fsx
+
+```
+  ls *.{tex|fsx}
+```
+
+## Case: Find the needle in a haystack
+
 ```bash
-  grep -n -e needle *.txt
+  grep -n -e needle files/*.txt
 ```
 
 ## Links
