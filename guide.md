@@ -52,9 +52,7 @@ The list goes on. See the links fore more.
 
 
 
-Setting up eduroam
 
-https://cat.eduroam.org/#
 
 Find the needle in the haystack
 ```bash
@@ -64,6 +62,11 @@ Find the needle in the haystack
 ## Links
 
 * Learn just enough Linux to get things done
-  http://alexpetralia.com/posts/2017/6/26/learning-linux-bash-to-get-things-done
+    http://alexpetralia.com/posts/2017/6/26/learning-linux-bash-to-get-things-done
+
 * The Linux Command Line -- great (and somewhat elaborate) book
-  http://linuxcommand.org/tlcl.php
+    http://linuxcommand.org/tlcl.php
+
+* Setting up eduroam
+    https://cat.eduroam.org/#
+
