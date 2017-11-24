@@ -87,7 +87,32 @@ Listing all .tex and .fsx
 
 Show good example of piping
 
+First, type this into the terminal:
+
+```
+  wc -l
+```
+
+Then type in random things, and terminate with ^d (Ctrl + d). The terminal will
+output number of lines
+
+How many files are there in the current directory? The command *wc -l* will list the
+number of lines of STDIN. If we *pipe* the output from *ls -l* into STDIN for
+wc -l, it will effectively count the number of files in the directory. Voila!
+
+```
+  ls -l | wc -l
+```
+
+This can be used for much simpler usecases. Grep multiple files for specific
+lines, find duplicates, make them all lowercase and save to a file. All of
+these operations can be done by seperate command line tools by piping the
+output of one command as the stdin of the next command. This generate a so
+called "pipe" between several commands.
+
 ## Redirection
+
+### Redirecting STDIN
 
 Redirect STDIN to come from a file, instead of the keyboard.
 
@@ -131,6 +156,11 @@ In our case, type in the following:
 Show when to use redirection. For example, their fsx script might be reading from
 stdin, then redirection could be a good thing to use. STDIN should come from
 this file.
+
+### Redirecting STDOUT
+
+Just like the STDIN can be redirected, the STDOUT can be redirected as well.
+Say we want
 
 ## Links
 

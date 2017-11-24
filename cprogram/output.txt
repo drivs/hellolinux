@@ -1,0 +1,4 @@
+Please enter your name: Please enter the width of your matrix: Please enter the height of your matrix: Your name is: Andreas
+Your width of the matrix is: 40
+Your height of the matrix is: 40
+
