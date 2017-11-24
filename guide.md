@@ -82,6 +82,55 @@ Listing all .tex and .fsx
   grep -n -e needle files/*.txt
 ```
 
+## Piping
+
+Show good example of piping
+
+## Redirection
+
+Redirect STDIN to come from a file, instead of the keyboard.
+
+First, run the program *simple* in the *cprogam* directory. This can be done by
+typing this into the terminal
+
+```
+  cd cprogram
+```
+
+Make sure the cprogram is executable, by typing in the following
+
+```
+  chmod +x simple
+```
+
+Now, run the program by typing
+
+```
+  ./simple
+```
+
+Enter the requested information. Manually entering stuff is cumbersome. Let's
+automate that!
+
+*simple* reads from STDIN using the *scanf* function from *stdio*. STDIN is by
+default the keyboard, but using redirection, we can change that. To ru a program
+*prog* with a file *input* as STDIN, type the following into the terminal:
+
+```
+  ./prog < input
+```
+
+In our case, type in the following:
+
+
+```
+  ./simple < input.txt
+```
+
+Show when to use redirection. For example, their fsx script might be reading from
+stdin, then redirection could be a good thing to use. STDIN should come from
+this file.
+
 ## Links
 
 * Learn just enough Linux to get things done
