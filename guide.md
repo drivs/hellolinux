@@ -77,7 +77,7 @@ Listing all .tex and .fsx
   ls *.{tex|fsx}
 ```
 
-## Case: Find the needle in a haystack
+### Case: Find the needle in a haystack
 
 ```bash
   grep -n -e needle files/*.txt
