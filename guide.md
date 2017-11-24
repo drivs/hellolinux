@@ -68,7 +68,8 @@ List files using the asteriks regular expression
   ls *.pdf
 ```
 
-This regular expression will expand to *any* files ending in .pdf.
+This regular expression will expand to *any* files ending in .pdf. In this
+case, it's the files 'whatever.pdf' and 'foobar.pdf'
 
 Listing all .tex and .fsx
 
@@ -142,3 +143,9 @@ this file.
 * Setting up eduroam
     https://cat.eduroam.org/#
 
+* When ever you need to do just that one thing
+    https://stackoverflow.com
+
+* If you have problems with your distro (Unsupported hardware, muted sound,
+  etc.), go to the respective forum for your distro. Folks are normally more
+  then willing to help out.
