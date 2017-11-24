@@ -62,10 +62,10 @@ First change directory into wildcard
   cd wildcard
 ```
 
-List files using the astericks regular expression
+List files using the asteriks regular expression
 
 ```
-  ls \*.pdf
+  ls *.pdf
 ```
 
 This regular expression will expand to *any* files ending in .pdf.
