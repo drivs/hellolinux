@@ -104,7 +104,7 @@ wc -l, it will effectively count the number of files in the directory. Voila!
   ls -l | wc -l
 ```
 
-This can be used for much simpler usecases. Grep multiple files for specific
+This can be used for much elaborate usecases. Grep multiple files for specific
 lines, find duplicates, make them all lowercase and save to a file. All of
 these operations can be done by seperate command line tools by piping the
 output of one command as the stdin of the next command. This generate a so
